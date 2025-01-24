@@ -14,7 +14,7 @@ import { Tabs } from '@/src/models/navigation.model';
 
 export default function Page() {
   const [section] = useQueryState('section', sectionParser);
-  const [copiedText, copy] = useCopyToClipboard();
+  const [, copy] = useCopyToClipboard();
 
   const renderSection = React.useCallback(() => {
     switch (section) {

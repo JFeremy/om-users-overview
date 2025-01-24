@@ -7,7 +7,6 @@ import { NuqsAdapter } from 'nuqs/adapters/next/app'
 import { AppSidebar } from "@/src/components/app-sidebar/app-sidebar";
 import { Footer } from "@/src/components/footer/footer";
 import { Header } from "@/src/components/header/header";
-import { SidebarProvider, SidebarTrigger } from "@/src/components/ui/sidebar";
 import { Toaster } from "@/src/components/ui/toaster";
 
 const geistSans = localFont({
